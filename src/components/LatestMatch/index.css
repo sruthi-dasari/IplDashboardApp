@@ -46,21 +46,37 @@
 .lower-container {
 }
 
+.team-logo-container-large-devices {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .latest-match-container {
     display: flex;
     justify-content: space-between;
     padding: 40px;
+    align-items: center;
+  }
+
+  .upper-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .competing-team-logo {
     height: 200px;
     width: 200px;
-    margin-left: 100px;
   }
-
+  .team-logo-container-small-devices {
+    display: none;
+  }
+  .team-logo-container-large-devices {
+    display: flex;
+  }
   .lower-container {
     display: flex;
     flex-direction: column;
+    text-align: right;
   }
   .seperator {
     display: none;

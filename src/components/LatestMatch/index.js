@@ -27,6 +27,15 @@ class LatestMatch extends Component {
             <p className="values">{venue}</p>
             <p className="values">{result}</p>
           </div>
+          <div className="team-logo-container-small-devices">
+            <img
+              className="competing-team-logo"
+              src={competingTeamLogo}
+              alt={`latest match ${competingTeam}`}
+            />
+          </div>
+        </div>
+        <div className="team-logo-container-large-devices">
           <img
             className="competing-team-logo"
             src={competingTeamLogo}
